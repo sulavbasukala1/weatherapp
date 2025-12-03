@@ -1,4 +1,4 @@
-FROM node:21-alpine
+FROM node: latest
 LABEL VERSION="1.0"
 WORKDIR /app
 COPY package*.json ./
